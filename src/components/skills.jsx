@@ -5,11 +5,15 @@ const skillCategories = [
     name: "Frontend",
     skills: [
       { name: "React", icon: "/skills/reactjs.svg" },
+      { name: "React Native", icon: "/skills/react-native.svg" },
       { name: "Next.js", icon: "/skills/nextjs.svg" },
       { name: "TypeScript", icon: "/skills/typescript.svg" },
       { name: "TailwindCSS", icon: "/skills/tailwindcss.svg" },
       { name: "Vite", icon: "/skills/vitejs.svg" },
       { name: "tRPC", icon: "/skills/trpc.svg" },
+      { name: "Electron", icon: "/skills/electron.svg" },
+      { name: "Shadcn UI", icon: "/skills/shadcn.svg", darkIcon: true },
+      { name: "Motion", icon: "/skills/motion.svg" },
     ],
   },
   {
@@ -32,6 +36,10 @@ const skillCategories = [
       { name: "Webpack", icon: "/skills/webpack.svg" },
       { name: "npm", icon: "/skills/npm.svg" },
       { name: "Yarn", icon: "/skills/yarn.svg" },
+      { name: "pnpm", icon: "/skills/pnpm.svg" },
+      { name: "Bun", icon: "/skills/bun.svg" },
+      { name: "Prettier", icon: "/skills/prettier.svg" },
+      { name: "Ngrok", icon: "/skills/ngrok.svg", darkIcon: true },
     ],
   },
   {
