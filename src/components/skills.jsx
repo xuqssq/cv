@@ -35,6 +35,7 @@ const skillCategories = [
       { name: "Docker", icon: "/skills/docker.svg" },
       { name: "Nginx", icon: "/skills/nginx.svg" },
       { name: "Turborepo", icon: "/skills/turborepo.svg" },
+      { name: "Redis", icon: "/skills/redis.svg" },
       { name: "Webpack", icon: "/skills/webpack.svg" },
       { name: "npm", icon: "/skills/npm.svg" },
       { name: "Yarn", icon: "/skills/yarn.svg" },
