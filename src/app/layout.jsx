@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { siteUrl, title, description } from "@/constants";
 
 export const metadata = {
-  title,
+  title: `${title} - Software Engineer | Full Stack Developer`,
   description,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   metadataBase: new URL(siteUrl),
