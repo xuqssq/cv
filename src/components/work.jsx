@@ -3,59 +3,23 @@ import Link from "next/link";
 
 const workExperiences = [
   {
-    company: "Google",
+    company: "半点网络科技有限公司",
     position: "Software Engineer",
-    period: "Jan 2025 — Current",
-    logoSrc: "/work/google.webp",
-    logoAlt: "Google logo",
-    description: "Helping build Jules at Google Labs - a proactive autonomous AI coding agent.",
-    companyUrl: "https://jules.google/"
+    period: "Apr 2024 — Current",
+    logoSrc: "/work/bd.webp",
+    logoAlt: "半点网络科技有限公司 logo",
+    description: "",
+    companyUrl: "https://beststock.ai"
   },
   {
-    company: "GreekPoints",
-    position: "Founder and Chief Executive Officer",
-    period: "Mar 2024 — Sep 2025",
-    logoSrc: "/work/greekpoints.webp",
-    logoAlt: "GreekPoints logo",
-    description: "Helping frats & sororites raise more money for philanthropy on a modern donation platform. $25k+ processed in it's first semester.",
-    companyUrl: "https://greekpoints.org/"
+    company: "9Air",
+    position: "Software Engineer",
+    period: "Apr 2023 — Apr 2024",
+    logoSrc: "/work/9air.png",
+    logoAlt: "9Air logo",
+    description: "",
+    companyUrl: "https://www.9air.com/zh-CN"
   },
-  {
-    company: "Linear Consulting",
-    position: "Founder and Chief Executive Officer",
-    period: "Sep 2020 — Apr 2024",
-    logoSrc: "/work/linear.webp",
-    logoAlt: "Linear logo",
-    description: "Getting startups off the ground with logos, websites, marketing, taxes, etc. 700+ clients that generated over $10M in revenue. Personally developing ecommerce stores, dashboards, email marketing, and more.",
-    companyUrl: "https://linear.hildy.io/"
-  },
-  {
-    company: "H-E-B Digital",
-    position: "Design Technologist Intern",
-    period: "Jun 2023 — Aug 2023",
-    logoSrc: "/work/heb.webp",
-    logoAlt: "H-E-B Digital logo",
-    description: "The 5th largest private company by revenue. Built an AI enabled way of making grocery pickup orders easier.",
-    companyUrl: "https://careers.heb.com/digital"
-  },
-  {
-    company: "TC Detail & Power Washing",
-    position: "Founder and Chief Executive Officer",
-    period: "Apr 2022 — Aug 2023",
-    logoSrc: "/work/tcdetail.webp",
-    logoAlt: "TC Detail & Power Washing logo",
-    description: "Scaled from just the cars on my street to a mobile detailing business across Austin with 5 stars and 10 employees.",
-    companyUrl: "https://tcdetail.net/"
-  },
-  {
-    company: "H-E-B Digital",
-    position: "Software Engineer Intern",
-    period: "May 2022 — Jul 2022",
-    logoSrc: "/work/heb.webp",
-    logoAlt: "H-E-B Digital logo",
-    description: "Utilized geospatial analytics to determine new markets for expansion, analyze customer behavior, and improve customer growth.",
-    companyUrl: "https://careers.heb.com/digital"
-  }
 ];
 
 export default function Work() {

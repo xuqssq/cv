@@ -1,6 +1,5 @@
 import Hero from "@/components/hero";
 import WorkExperience from "@/components/work";
-import Education from "@/components/education";
 import Projects from "@/components/projects";
 import OpenSourceContributions from "@/components/open-source";
 import Navigation from "@/components/navigation";
@@ -38,14 +37,15 @@ export default async function Home() {
         <section id="work">
           <WorkExperience />
         </section>
-        <section id="education">
-          <Education />
-        </section>
         <section id="projects">
           <Projects />
         </section>
         <section id="opensource">
           <OpenSourceContributions />
+        </section>
+
+        <section id="skills">
+          skills
         </section>
       </main>
       <BackToTop />
