@@ -13,7 +13,7 @@ const openSourceContributions = [
     projectDescription: "A Chrome extension for capturing and downloading M3U8 video streams from web pages.",
     contributionDescription: "Author. Built a browser extension with 400+ daily active users that automatically detects and saves HLS video streams.",
     githubUrl: "https://github.com/xuqssq/M3U8Keeper",
-    chromeUrl: "https://chromewebstore.google.com/detail/m3u8-keeper/coecbepngabeoadjoeknabnhnpegmdbl",
+    chromeUrl: "https://chromewebstore.google.com/detail/m3u8-keeper/coecbepngabeoadjoeknabnhnpegmdbl?hl=en",
   },
   {
     name: "q-image-compressor",
