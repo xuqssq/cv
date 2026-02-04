@@ -19,7 +19,7 @@ export const metadata = {
     description,
     images: [
       {
-        url: "/pfp.webp",
+        url: "/pfp_t.webp",
         width: 400,
         height: 400,
         alt: title,

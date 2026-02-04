@@ -8,7 +8,9 @@ export default function Hero() {
   return (
     <div className="flex flex-col gap-4">
 
-      <Image src="/pfp.webp" alt={title} width={100} height={100} className="rounded-lg" priority />
+      <div className="border w-fit h-fit rounded-lg border-gray-200 dark:border-gray-700">
+        <Image src="/pfp_t.webp" alt={title} width={100} height={100} className="rounded-lg" priority />
+      </div>
       <h1 className="text-3xl font-bold font-celine text-black dark:text-white">{title}</h1>
 
       <p className="text-base text-gray-900 dark:text-gray-100">

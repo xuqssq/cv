@@ -12,7 +12,7 @@ const personSchema = {
   "@type": "Person",
   name: title,
   url: siteUrl,
-  image: `${siteUrl}/pfp.webp`,
+  image: `${siteUrl}/pfp_t.webp`,
   jobTitle: "Software Engineer",
   description,
   sameAs: [
