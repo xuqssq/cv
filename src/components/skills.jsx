@@ -21,6 +21,7 @@ const skillCategories = [
     skills: [
       { name: "Node.js", icon: "/skills/node.svg" },
       { name: "NestJS", icon: "/skills/nestjs.svg" },
+      { name: "Prisma", icon: "/skills/prisma.svg", darkIcon: true },
       { name: "Supabase", icon: "/skills/supabase-icon.svg" },
       { name: "MongoDB", icon: "/skills/mongodb.svg" },
       { name: "Strapi", icon: "/skills/strapi.svg" },
@@ -32,6 +33,7 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: "/skills/git.svg" },
       { name: "Docker", icon: "/skills/docker.svg" },
+      { name: "Nginx", icon: "/skills/nginx.svg" },
       { name: "Turborepo", icon: "/skills/turborepo.svg" },
       { name: "Webpack", icon: "/skills/webpack.svg" },
       { name: "npm", icon: "/skills/npm.svg" },
@@ -48,6 +50,7 @@ const skillCategories = [
       { name: "Vercel", icon: "/skills/vercel.svg", darkIcon: true },
       { name: "Cloudflare", icon: "/skills/cloudflare.svg" },
       { name: "Stripe", icon: "/skills/stripe.svg" },
+      { name: "Clerk", icon: "/skills/clerk.svg" },
       { name: "OpenRouter", icon: "/skills/openrouter.svg" },
     ],
   },
@@ -59,6 +62,7 @@ const skillCategories = [
       { name: "AI SDK", icon: "/skills/vercel.svg", darkIcon: true },
       { name: "Claude Code", icon: "/skills/claude.svg" },
       { name: "Cursor", icon: "/skills/cursor.svg", darkIcon: true },
+      { name: "OpenCode", icon: "/skills/opencode.svg" },
     ],
   },
   {
