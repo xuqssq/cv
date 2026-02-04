@@ -2,6 +2,7 @@ import Hero from "@/components/hero";
 import WorkExperience from "@/components/work";
 import Projects from "@/components/projects";
 import OpenSourceContributions from "@/components/open-source";
+import Skills from "@/components/skills";
 import Navigation from "@/components/navigation";
 import BackToTop from "@/components/back-to-top";
 import { siteUrl, title, description } from "@/constants";
@@ -45,7 +46,7 @@ export default async function Home() {
         </section>
 
         <section id="skills">
-          skills
+          <Skills />
         </section>
       </main>
       <BackToTop />
