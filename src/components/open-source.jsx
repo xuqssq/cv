@@ -2,25 +2,36 @@ import Link from "next/link";
 
 const openSourceContributions = [
   {
-    name: "moltbot (formerly clawdbot)",
-    projectDescription: "The proactive AI assistant that actually does (not ask) things.",
-    contributionDescription: "Added Google Chat as a communication channel. Fixed hardcoded onboarding options.",
-    githubUrl: "https://github.com/moltbot/moltbot",
-    forkUrl: "https://github.com/iHildy/clawdbot",
+    name: "next-intl",
+    projectDescription: "Internationalization (i18n) for Next.js that gets out of your way.",
+    contributionDescription: "Contributed bug fixes and documentation improvements to the popular Next.js internationalization library.",
+    githubUrl: "https://github.com/amannn/next-intl",
+    forkUrl: "https://github.com/xuqssq/next-intl",
   },
   {
-    name: "OCMT (opencommit)",
-    projectDescription: "AI-powered git commit message, changelog & documentation generator using opencode",
-    contributionDescription: "Added global config, configurable providers, PR creation and branch management.",
-    githubUrl: "https://github.com/R44VC0RP/ocmt",
-    forkUrl: "https://github.com/iHildy/ocmt",
+    name: "M3U8Keeper",
+    projectDescription: "A Chrome extension for capturing and downloading M3U8 video streams from web pages.",
+    contributionDescription: "Author. Built a browser extension with 400+ daily active users that automatically detects and saves HLS video streams.",
+    githubUrl: "https://github.com/xuqssq/M3U8Keeper",
+    chromeUrl: "https://chromewebstore.google.com/detail/m3u8-keeper/coecbepngabeoadjoeknabnhnpegmdbl",
   },
   {
-    name: "Docker iDRAC6",
-    projectDescription: "Dell iDRAC 6 web interface and VNC proxy",
-    contributionDescription: "Fixed server connection issue plaguing many users.",
-    githubUrl: "https://github.com/DomiStyle/docker-idrac6",
-    forkUrl: "https://github.com/iHildy/docker-idrac6",
+    name: "q-image-compressor",
+    projectDescription: "A smart image batch compression tool supporting JPG, PNG, WebP, GIF, and AVIF formats.",
+    contributionDescription: "Author. Created an efficient CLI tool and Node.js library that intelligently compresses images while maintaining quality.",
+    githubUrl: "https://github.com/xuqssq/image-compress",
+  },
+  {
+    name: "Chinese Calendar",
+    projectDescription: "A data collection tool for Chinese calendar data including lunar dates, festivals, and auspicious days.",
+    contributionDescription: "Author. Built a scraper that exports RFC 5545 ICS format, compatible with Apple Calendar, Google Calendar, and Outlook.",
+    githubUrl: "https://github.com/xuqssq/calendar",
+  },
+  {
+    name: "12306 Search MCP",
+    projectDescription: "An MCP server for querying China Railway 12306 train tickets, enabling AI assistants to search train schedules.",
+    contributionDescription: "Author. Developed an MCP-based service supporting ticket queries, transfer searches, and station lookups for Claude, Cursor, etc.",
+    githubUrl: "https://github.com/xuqssq/12306-search",
   },
 ];
 
@@ -139,6 +150,19 @@ async function ContributionCard({ contribution }) {
           >
             <svg className="w-4 h-4 icon icon-tabler icons-tabler-outline icon-tabler-git-fork" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M10 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M15 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 8v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-2" /><path d="M12 12l0 4" /></svg>
             <span>My Fork</span>
+          </Link>
+        )}
+        {contribution.chromeUrl && (
+          <Link
+            href={contribution.chromeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors text-xs"
+          >
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C8.21 0 4.831 1.757 2.632 4.501l3.953 6.848A5.454 5.454 0 0 1 12 6.545h10.691A12 12 0 0 0 12 0zM1.931 5.47A11.943 11.943 0 0 0 0 12c0 6.012 4.42 10.991 10.189 11.864l3.953-6.847a5.45 5.45 0 0 1-6.865-2.29zm13.342 2.166a5.446 5.446 0 0 1 1.45 7.09l.002.001h-.002l-5.344 9.257c.206.01.413.016.621.016 6.627 0 12-5.373 12-12 0-1.54-.29-3.011-.818-4.364zM12 16.364a4.364 4.364 0 1 1 0-8.728 4.364 4.364 0 0 1 0 8.728z" />
+            </svg>
+            <span>Chrome Web Store</span>
           </Link>
         )}
       </div>
