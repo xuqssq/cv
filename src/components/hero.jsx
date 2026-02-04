@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
-import { MdMarkEmailUnread } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import Image from "next/image";
 import { siteUrl, title, description } from "@/constants";
 
@@ -18,8 +18,8 @@ export default function Hero() {
         <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" target="_blank" href="https://github.com/xuqssq">
           <FaGithub className="size-6" />
         </Link>
-        <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" href="mailto:xuqssq@163.com">
-          <MdMarkEmailUnread className="size-6" />
+        <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" href="mailto:xuqssq@gmail.com">
+          <MdEmail className="size-6" />
         </Link>
         <Link
           href="/resume.pdf"
