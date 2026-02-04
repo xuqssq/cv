@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const workExperiences = [
   {
-    company: "半点网络科技有限公司",
-    position: "Software Engineer",
+    company: "Bandian Tech",
+    position: "Full Stack Developer",
     period: "Apr 2024 — Current",
     logoSrc: "/work/bd.webp",
-    logoAlt: "半点网络科技有限公司 logo",
-    description: "",
+    logoAlt: "Bandian Tech logo",
+    description: "Building AI-powered fintech products using Next.js. Responsible for end-to-end development of trading platforms and financial analytics tools.",
     companyUrl: "https://beststock.ai"
   },
   {
@@ -17,7 +17,7 @@ const workExperiences = [
     period: "Apr 2023 — Apr 2024",
     logoSrc: "/work/9air.png",
     logoAlt: "9Air logo",
-    description: "",
+    description: "Developed and maintained internal OA systems to streamline business operations and improve workflow efficiency across departments.",
     companyUrl: "https://www.9air.com/zh-CN"
   },
 ];
