@@ -1,6 +1,20 @@
+import localFont from "next/font/local";
 import "@/app/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteUrl, title, description } from "@/constants";
+
+const menlo = localFont({
+  src: "../../public/fonts/Menlo-Regular.woff",
+  variable: "--font-menlo",
+  display: "swap",
+});
+
+const celine = localFont({
+  src: "../../public/fonts/celine-stencil.otf",
+  variable: "--font-celine",
+  weight: "500",
+  display: "swap",
+});
 
 export const metadata = {
   title: `${title} - Software Engineer | Full Stack Developer`,
@@ -43,7 +57,7 @@ export default function RootLayout({
   children,
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={`${menlo.variable} ${celine.variable}`} suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://api.github.com" />
         <link rel="preconnect" href="https://github.com" />
