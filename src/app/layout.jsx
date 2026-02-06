@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "@/app/globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
-import { siteUrl, title, description } from "@/constants";
+import { siteUrl, title, description, jobTitle, profileImage } from "@/constants";
 
 const menlo = localFont({
   src: "../../public/fonts/Menlo-Regular.woff",
@@ -17,7 +17,7 @@ const celine = localFont({
 });
 
 export const metadata = {
-  title: `${title} - Software Engineer | Full Stack Developer`,
+  title: `${title} - ${jobTitle} | Full Stack Developer`,
   description,
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   metadataBase: new URL(siteUrl),
@@ -33,7 +33,7 @@ export const metadata = {
     description,
     images: [
       {
-        url: "/pfp_t.webp",
+        url: profileImage,
         width: 400,
         height: 400,
         alt: title,

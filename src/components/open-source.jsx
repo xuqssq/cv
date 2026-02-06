@@ -1,39 +1,5 @@
 import Link from "next/link";
-
-const openSourceContributions = [
-  {
-    name: "next-intl",
-    projectDescription: "Internationalization (i18n) for Next.js that gets out of your way.",
-    contributionDescription: "Contributed bug fixes and documentation improvements to the popular Next.js internationalization library.",
-    githubUrl: "https://github.com/amannn/next-intl",
-    forkUrl: "https://github.com/xuqssq/next-intl",
-  },
-  {
-    name: "M3U8Keeper",
-    projectDescription: "A Chrome extension for capturing and downloading M3U8 video streams from web pages.",
-    contributionDescription: "Author. Built a browser extension with 400+ daily active users that automatically detects and saves HLS video streams.",
-    githubUrl: "https://github.com/xuqssq/M3U8Keeper",
-    chromeUrl: "https://chromewebstore.google.com/detail/m3u8-keeper/coecbepngabeoadjoeknabnhnpegmdbl?hl=en",
-  },
-  {
-    name: "q-image-compressor",
-    projectDescription: "A smart image batch compression tool supporting JPG, PNG, WebP, GIF, and AVIF formats.",
-    contributionDescription: "Author. Created an efficient CLI tool and Node.js library that intelligently compresses images while maintaining quality.",
-    githubUrl: "https://github.com/xuqssq/image-compress",
-  },
-  {
-    name: "Chinese Calendar",
-    projectDescription: "A data collection tool for Chinese calendar data including lunar dates, festivals, and auspicious days.",
-    contributionDescription: "Author. Built a scraper that exports RFC 5545 ICS format, compatible with Apple Calendar, Google Calendar, and Outlook.",
-    githubUrl: "https://github.com/xuqssq/calendar",
-  },
-  {
-    name: "12306 Search MCP",
-    projectDescription: "An MCP server for querying China Railway 12306 train tickets, enabling AI assistants to search train schedules.",
-    contributionDescription: "Author. Developed an MCP-based service supporting ticket queries, transfer searches, and station lookups for Claude, Cursor, etc.",
-    githubUrl: "https://github.com/xuqssq/12306-search",
-  },
-];
+import { openSourceContributions } from "@/constants";
 
 function formatStars(stars) {
   if (stars >= 1000) {

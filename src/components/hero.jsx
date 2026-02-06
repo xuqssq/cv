@@ -2,14 +2,14 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import Image from "next/image";
-import { siteUrl, title, description } from "@/constants";
+import { title, description, socialLinks, profileImage, resumePath } from "@/constants";
 
 export default function Hero() {
   return (
     <div className="flex flex-col gap-4">
 
       <div className="border w-fit h-fit rounded-lg border-gray-200 dark:border-gray-700">
-        <Image src="/pfp_t.webp" alt={title} width={100} height={100} className="rounded-lg" priority />
+        <Image src={profileImage} alt={title} width={100} height={100} className="rounded-lg" priority />
       </div>
       <h1 className="text-3xl font-bold font-celine text-black dark:text-white">{title}</h1>
 
@@ -17,14 +17,14 @@ export default function Hero() {
         Welcome to my corner of the internet. {description}
       </p>
       <div className="flex flex-row gap-3">
-        <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" target="_blank" href="https://github.com/xuqssq">
+        <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" target="_blank" href={socialLinks.github}>
           <FaGithub className="size-6" />
         </Link>
-        <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" href="mailto:xuqssq@gmail.com">
+        <Link className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 p-1 rounded-lg text-black dark:text-white" href={socialLinks.email}>
           <MdEmail className="size-6" />
         </Link>
         <a
-          href="/resume.pdf"
+          href={resumePath}
           target="_blank"
           className="inline-flex items-center gap-1.5 px-2 py-1 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all duration-200 rounded-lg font-medium"
           rel="noopener noreferrer"

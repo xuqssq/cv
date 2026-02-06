@@ -5,23 +5,20 @@ import OpenSourceContributions from "@/components/open-source";
 import Skills from "@/components/skills";
 import Navigation from "@/components/navigation";
 import BackToTop from "@/components/back-to-top";
-import { siteUrl, title, description } from "@/constants";
+import { siteUrl, title, description, jobTitle, githubUrl, profileImage, address } from "@/constants";
 
 const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: title,
   url: siteUrl,
-  image: `${siteUrl}/pfp_t.webp`,
-  jobTitle: "Software Engineer",
+  image: `${siteUrl}${profileImage}`,
+  jobTitle,
   description,
-  sameAs: [
-    "https://github.com/xuqssq",
-  ],
+  sameAs: [githubUrl],
   address: {
     "@type": "PostalAddress",
-    addressRegion: "GD",
-    addressCountry: "CN",
+    ...address,
   },
 };
 

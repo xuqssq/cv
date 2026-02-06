@@ -2,13 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-
-const navItems = [
-  { label: "Work", href: "#work" },
-  { label: "Projects", href: "#projects" },
-  { label: "Open Source", href: "#opensource" },
-  { label: "Skills", href: "#skills" },
-];
+import { navItems } from "@/constants";
 
 export default function Navigation() {
   const [activeSection, setActiveSection] = useState("");

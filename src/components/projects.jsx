@@ -1,38 +1,5 @@
 import Link from "next/link";
-
-const projects = [
-  {
-    name: "APIPass",
-    description: "An AI-powered API aggregation platform. Connect to any API instantly. Discover, integrate, and manage thousands of APIs in one unified marketplace.",
-    techStack: ["Next.js", "TailwindCSS", "Supabase", "Cloudflare", "Vercel", "Shadcn UI"],
-    liveUrl: "https://apipass.dev",
-    period: "Constant",
-  },
-  {
-    name: "BestStock AI",
-    description: "AI-powered stock analysis tool for U.S. stocks, offering institutional-grade data and insights to help you invest smarter.",
-    techStack: ["Next.js", "TailwindCSS", "Docker", "Supabase", "Cloudflare", "Vercel", "Shadcn UI"],
-    liveUrl: "https://beststock.ai",
-    monthlyVisits: "7.67K",
-    period: "Constant",
-  },
-  {
-    name: "MakeBestMusic",
-    description: "AI music generator that creates high-quality songs from text prompts. Features music splitting, mixing, enhancement, and audio restoration for musicians and creators.",
-    techStack: ["Next.js", "TailwindCSS", "Turborepo", "Docker", "Supabase", "Cloudflare", "Vercel", "Shadcn UI"],
-    liveUrl: "https://makebestmusic.com",
-    monthlyVisits: "379.97K",
-    period: "2025",
-  },
-  {
-    name: "DICloak",
-    description: "Anti-detect browser for managing multiple accounts with maximum anonymity. Offers anti-detection, account protection, and scalable business growth solutions.",
-    techStack: ["Next.js", "TailwindCSS", "Docker", "Supabase", "Cloudflare", "Vercel", "Shadcn UI"],
-    liveUrl: "https://dicloak.com",
-    monthlyVisits: "652.16K",
-    period: "2025",
-  },
-];
+import { projects } from "@/constants";
 
 function formatVisits(visits) {
   return visits;
